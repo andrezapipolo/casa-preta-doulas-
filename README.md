@@ -7,11 +7,11 @@
 <!--ts-->
 - [🌻 Casa Preta Doulas](#-Casa-Preta-Doulas)
 - [📁 Arquitetura Final](#-Arquitetura-Final)
-- [💻 Tecnologias que vamos usar](#-tecnologias-que-vamos-usar)
-- [🪄 Preparando o ambiente para o projeto](#-preparando-o-ambiente-para-o-projeto)
-- [🔓 Interface gráfica para realizar os testes de rotas Doulas](#-Interface-gráfica-para-realizar-os-testes-de-rotas-Doulas)
-- [🪄 Preparando o ambiente para autenticação](#-preparando-o-ambiente-para-autenticação)
-- [🔐 Testando rotas de login e proteção das rotas](#-Testando-rotas-de-login-e-proteção-das-rotas)
+- [💻 Tecnologias Que Vamos Usar](#-Tecnologias-Que-Vamos-Usar)
+- [🪄 Preparando o Ambiente Para o Projeto](#-Preparando-o-Ambiente-Para-o-Projeto)
+- [🔓 Interface Gráfica Para Realizar os Testes de Rotas Doulas](#-Interface-Gráfica-Para-Realizar-os-Testes-de-Rotas-Doulas)
+- [🪄 Preparando o Ambiente Para Autenticação](#-Preparando-o-Ambiente-Para-Autenticação)
+- [🔐 Testando Rotas de Login e Proteção das Rotas](#-Testando-Rotas-de-Login-e-Proteção-das-Rotas)
 - [✍🏽 Teste Jest](#-Teste-Jest)
 - [🎄 Autora](#-Autora)
 
@@ -83,7 +83,7 @@ Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa mane
 </br>
 
 
-## 💻 Tecnologias que vamos usar
+## 💻 Tecnologias Que Vamos Usar
 
 </br>
 
@@ -107,7 +107,7 @@ Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa mane
 
 </br>
 
-## 🪄 Preparando o ambiente para o projeto
+## 🪄 Preparando o Ambiente Para o Projeto
 
 </br>
 
@@ -130,7 +130,7 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-## 🔓 Interface gráfica para realizar os testes de rotas Doulas
+## 🔓 Interface Gráfica Para Realizar os Testes de Rotas Doulas
 
 </br>
 
@@ -164,7 +164,7 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-## 🪄 Preparando o ambiente para autenticação
+## 🪄 Preparando o Ambiente Para Autenticação
 
 </br>
 
@@ -178,7 +178,7 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-## 🔐 Testando rotas de login e proteção das rotas
+## 🔐 Testando Rotas de Login e Proteção das Rotas
 
 </br>
 
