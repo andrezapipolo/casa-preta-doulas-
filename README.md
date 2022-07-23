@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p align="center"> 🖤 API e Banco de Dados Casa Preta Doulas Utilizando CRUD, MongoDB e Autenticação <p>
+    <p align="center"> 🌻 API e Banco de Dados Casa Preta Doulas Utilizando CRUD, MongoDB e Autenticação <p>
 </h1></br>
 
 
@@ -25,7 +25,7 @@
 
 </br>
 
-Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o curso de desenvolvimento backend da {Reprograma}. Trata-se de um banco que dados que tem o objetivo uma API que reúne informações de doulas pretas e pardas de todo lugar do Brasil.
+Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o curso de desenvolvimento backend da {Reprograma}. Trata-se de um banco que dados que tem como objetivo a construção de uma API que reúne informações de doulas pretas e pardas de todo lugar do Brasil.
 
 
 </br>
@@ -94,7 +94,7 @@ Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o 
 | `mongoose`   | Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections.|
 | `nodemon`    | Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente.|
 | `npm ou yarn`| Gerenciador de pacotes.|
-| `MongoDb`    | Banco de dado não relacional orietado a documentos.|
+| `MongoDb`    | Banco de dados não relacional orietado a documentos.|
 | `Mongo Atlas`| Interface gráfica para verificar se os dados foram persistidos.|
 | `Postman` | Interface gráfica para realizar os testes.|
 | `jsonwebtoken `| Dependência que implementa o protocolo JSON Web Token.|
