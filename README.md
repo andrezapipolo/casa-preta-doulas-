@@ -147,19 +147,19 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-**`GET`** Listar todas as Doulas.  | `http://localhost:1313/`;
+**`GET`** Listar todas as Doulas.  | `http://localhost:1313/doulas`;
 
-**`GET`** Listar a Doulas pela cidade. | `http://localhost:1313/cidades`;
+**`GET`** Listar as Doulas pela cidade. | `http://localhost:1313/doulas/cidade?cidade=Recife`;
 
-**`GET`** Listar a Doulas pelo estado. | `http://localhost:1313/estado`;
+**`GET`** Listar as Doulas pelo estado. | `http://localhost:1313/doulas/estado?estado=Pernambuco`;
 
-**`GET`** Acessar a Doula pelo ID. | `http://localhost:1313/:id`;
+**`GET`** Acessar a Doula pelo ID. | `http://localhost:1313/doulas/:id`;
 
-**`POST`** Adicionar uma nova Doula.  | `http://localhost:1313/add`;
+**`POST`** Adicionar uma nova Doula.  | `http://localhost:1313/doulas/add`;
 
-**`DELETE`** Deverá deletar uma Doula por ID. | `http://localhost:1313/:id`;
+**`DELETE`** Deverá deletar uma Doula por ID. | `http://localhost:1313/doulas/:id`;
 
-**`PATCH`** Alterar dados de uma Doula pelo ID.  | `http://localhost:1313/:id`;
+**`PATCH`** Alterar dados de uma Doula pelo ID.  | `http://localhost:1313/doulas/:id`;
 
 </br>
 
