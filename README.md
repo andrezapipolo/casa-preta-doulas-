@@ -193,7 +193,7 @@ Seguiremos a ordem de instalações no terminal:
 
 **`PROTEÇÃO`** Para testar via Postman, passar bearer token no header de autenticação $ Bearer Token
 
-Visualize o meu Swagger [aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/)
+[Visualize o meu Swagger aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/)
 
 </br>
 
