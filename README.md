@@ -188,7 +188,7 @@ Seguiremos a ordem de instalações no terminal:
 
 **`Post`** Autenticar login | `localhost:1313/adm/login`;
 
-**`DELETE`** Deletar um adm por id específico   | `localhost:1313/adm/`;
+**`DELETE`** Deletar um adm por id específico   | `localhost:1313/adm/:id`;
 
 **`PROTEÇÃO`** Para testar via Postman, passar bearer token no header de autenticação $ Bearer Token
 
