@@ -65,7 +65,6 @@ Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o 
    |  |   |- 📄 swagger_output.json
    |  |
    |  |--📁 test
-   |  |   |- 📄 adm.test.js
    |  |   |- 📄 doulas.test.js
    |  |
    |  |
