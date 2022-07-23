@@ -193,6 +193,7 @@ Seguiremos a ordem de instalações no terminal:
 
 **`PROTEÇÃO`** Para testar via Postman, passar bearer token no header de autenticação $ Bearer Token
 
+Visualize o meu Swagger [aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/)
 
 </br>
 
@@ -205,6 +206,7 @@ Seguiremos a ordem de instalações no terminal:
 - Inicialize o comando de instalação `npm install --save-exact jest@28.1.0 --save-dev` para instalar o Jest.
 - Incluir o no package_json -> `"test:watch": "jest --watchAll"`.
 - Inicialize com o comando `npm run test:watch` para testar.
+
 
 </br>
 
