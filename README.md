@@ -34,6 +34,7 @@ Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o 
 
 </br>
 
+Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa maneira. você pode visualizar meu [Swagger aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/).
 
 ```
  📁CASA-PRETA-DOULAS
@@ -81,7 +82,6 @@ Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o 
 ```
 </br>
 
-[Visualize o meu Swagger aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/)
 
 ## 💻 Tecnologias que vamos usar
 
