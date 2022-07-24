@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p align="center"> 🌻 API e Banco de Dados Casa Preta Doulas Utilizando CRUD, MongoDB e Autenticação <p>
+    <p align="center"> 🌻 API e Banco de Dados Casa Preta Doulas Utilizando CRUD, MongoDB, Autenticação e Login<p>
 </h1></br>
 
 
@@ -134,33 +134,20 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-📌 Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Patch através da ferramenta Postman. A interface é um CRUD. Vamos precisar criar 7 rotas para Doulas.
+📌 Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Patch através da ferramenta Postman. A interface é um CRUD.
 
 </br>
 
-✅ poder listar todas as doulas.
-<br>✅ poder listar a Doula pela cidade.
-<br>✅ poder listar a Doula pelo Estado.
-<br>✅ poder acessar a Doula pelo ID.
-<br>✅ poder adicionar uma nova Doula.
-<br>✅ poder deverá deletar uma Doula por ID.
-<br>✅ poder alterar dados de uma Doula pelo ID.
+| Verbo  |    EndPoint     |       Descrição da Rota             | Status | Auth | Login |
+| ------ | -------------   | ------------------------------------| ------ | -----| ----- |
+| GET    | /doulas         |  Listar todas as doulas             |   200  |  ❌  |  ❌  |
+| GET    | /doulas/cidade  |  Listar a Doula pela cidade         |   200  |  ❌  |  ❌  |
+| GET    | /doulas/estado  |  Listar a Doula pelo Estado         |   200  |  ❌  |  ❌  |
+| GET    | /doulas/:id     |  Acessar a Doula pelo ID            |   200  |  ❌  |  ❌  |
+| POST   | /doulas/add     |  Adicionar uma nova Doula           |   201  |  ✔️  |  ✔️  |
+| DELETE | /doulas/:id     |  Deverá deletar uma Doula por ID    |   200  |  ✔️  |  ✔️  |
+| PATCH  | /doulas/:id     |  Alterar dados de uma Doula pelo ID |   200  |  ✔️  |  ✔️  |
 
-</br>
-
-**`GET`** Listar todas as Doulas.  | `http://localhost:1313/doulas`;
-
-**`GET`** Listar as Doulas pela cidade. | `http://localhost:1313/doulas/cidade?cidade=Recife`;
-
-**`GET`** Listar as Doulas pelo estado. | `http://localhost:1313/doulas/estado?estado=Pernambuco`;
-
-**`GET`** Acessar a Doula pelo ID. | `http://localhost:1313/doulas/:id`;
-
-**`POST`** Adicionar uma nova Doula.  | `http://localhost:1313/doulas/add`;
-
-**`DELETE`** Deverá deletar uma Doula por ID. | `http://localhost:1313/doulas/:id`;
-
-**`PATCH`** Alterar dados de uma Doula pelo ID.  | `http://localhost:1313/doulas/:id`;
 
 </br>
 
@@ -182,17 +169,16 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
- 📌 Vamos usar 5 rotas para Adm:
+ 📌 Vamos usar 4 rotas de Login e proteção das rotas de Adm:
 
-**`GET`** Listar todos os adm | `localhost:1313/adm`;
+| Verbo  |   EndPoint  |      Descrição da Rota             | Status | Auth | Login |
+| ------ | ----------- | -----------------------------------| ------ | -----| ----- |
+| POST   | /adm        | Adicionar uma nova Doula           |   201  |  ✔️  |  ✔️  |
+| DELETE | /adm/login  | Deverá deletar uma Doula por ID    |   200  |  ✔️  |  ✔️  |
+| PATCH  | /adm/:id    | Alterar dados de uma Doula pelo ID |   200  |  ✔️  |  ✔️  |
 
-**`Post`** Autenticar adm | `localhost:1313/adm`;
 
-**`Post`** Autenticar login | `localhost:1313/adm/login`;
-
-**`DELETE`** Deletar um adm por id específico   | `localhost:1313/adm/:id`;
-
-**`PROTEÇÃO`** Para testar via Postman, passar bearer token no header de autenticação $ Bearer Token
+ *PROTEÇÃO* Para testar via Postman, passar bearer token no header de autenticação $ Bearer Token
 
 
 </br>
