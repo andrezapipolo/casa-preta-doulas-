@@ -5,12 +5,12 @@ const SECRET = `${process.env.TOKEN_SECRET}`;
 const getDoulas = (req, res) => {
   doulas.find((err, doulas) => {
     if (err) {
-      res.status(500).send({  message: err.message });
+      res.status(500).send({ message: err.message });
     } else {
       res.status(200).json(doulas);
     }
-  })
-}
+  });
+};
 
 const getByEstado = async (req, res) => {
   try {
@@ -20,7 +20,7 @@ const getByEstado = async (req, res) => {
   } catch (err) {
     res.status(500).send({ message: err.message });
   }
-}
+};
 
 const getByCidade = async (req, res) => {
   try {
@@ -57,7 +57,7 @@ const createDoula = async (req, res) => {
       }
       const allDoulas = await doulas.find();
       res.status(200).json(allDoulas);
-    })
+    });
     const { nome, cidade, estado, contato, email } = req.body;
 
     const newDoula = new doulas({
@@ -66,7 +66,7 @@ const createDoula = async (req, res) => {
       estado,
       contato,
       email,
-    })
+    });
     const savedDoula = await newDoula.save();
     res.status(201).json(savedDoula);
   } catch (error) {
@@ -75,23 +75,21 @@ const createDoula = async (req, res) => {
   }
 };
 
-
 const updateDoula = async (req, res) => {
   try {
-    const authHeader = req.get('authorization')
+    const authHeader = req.get("authorization");
 
-  if (!authHeader) {
-    return res.status(401).send('You need authorization')
-  }
+    if (!authHeader) {
+      return res.status(401).send("You need authorization");
+    }
 
-  const token = authHeader.split(' ') [1]
+    const token = authHeader.split(" ")[1];
 
-  await jwt.verify(token, SECRET, async function (err) {
-
-    if (err) {
-      return res.status(403).send('Denied access')
-  }
-  })
+    await jwt.verify(token, SECRET, async function (err) {
+      if (err) {
+        return res.status(403).send("Denied access");
+      }
+    });
     const { nome, cidade, estado, contato, email } = req.body;
 
     await doulas.findByIdAndUpdate(req.params.id, {
@@ -101,7 +99,7 @@ const updateDoula = async (req, res) => {
       contato,
       email,
     });
-    const doulaUpdated = await doulas.findById(req.params.id)
+    const doulaUpdated = await doulas.findById(req.params.id);
     res.status(200).json(doulaUpdated);
   } catch (error) {
     console.error(error);
@@ -111,36 +109,33 @@ const updateDoula = async (req, res) => {
 
 const deleteDoulas = async (req, res) => {
   try {
-      const authHeader = req.get('authorization')
+    const authHeader = req.get("authorization");
 
-  if (!authHeader) {
-    return res.status(401).send('You need authorization')
-  }
+    if (!authHeader) {
+      return res.status(401).send("You need authorization");
+    }
 
-  const token = authHeader.split(' ') [1]
+    const token = authHeader.split(" ")[1];
 
-  await jwt.verify(token, SECRET, async function (err) {
-
-    if (err) {
-      return res.status(403).send('Denied access')
-  }
-  })
+    await jwt.verify(token, SECRET, async function (err) {
+      if (err) {
+        return res.status(403).send("Denied access");
+      }
+    });
     const { id } = req.params;
     const findByIdAndDelete = await doulas.findByIdAndDelete(id);
 
     if (findByIdAndDelete == null) {
-      return res.status(404).json({ message: `ID doulas ${id} not found `});
+      return res.status(404).json({ message: `ID doulas ${id} not found ` });
     }
 
     await findByIdAndDelete.remove();
 
     res.status(200).json({ message: "Doula deleted" });
-
   } catch (error) {
     res.status(500).send({ message: err.message });
   }
-}
-
+};
 
 module.exports = {
   getDoulas,
