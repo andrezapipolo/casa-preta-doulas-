@@ -3,6 +3,13 @@
     <p align="center"> 🌻 API e Banco de Dados Casa Preta Doulas Utilizando CRUD, MongoDB, Autenticação e Login<p>
 </h1></br>
 
+<h1 align="center">
+
+
+<p align="center">
+<img src="material/projeto.gif" alt="logo casa preta doulas" width="500">
+</p> <p align="center"> </p>
+
 
 <!--ts-->
 - [🌻 Casa Preta Doulas](#-Casa-Preta-Doulas)
