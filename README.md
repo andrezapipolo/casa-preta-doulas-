@@ -34,7 +34,7 @@ Olá, boas-vindas à documentação Casa Preta Doulas, meu projeto final para o 
 
 </br>
 
-Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa maneira. Ah! e você pode visualizar meu [Swagger aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/).
+Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa maneira.
 
 ```
  📁CASA-PRETA-DOULAS
@@ -104,6 +104,14 @@ Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa mane
 | `npm install --save-exact jest@28.1.0 --save-dev`| Jest é uma estrutura de teste JavaScript.|
 | `swagger`| Gera a documentação.|
 | `heroku`| hospeda a documentação.|
+
+</br>
+
+📄 Você pode visualizar meu [Swagger aqui](https://casa-preta-doulas.herokuapp.com/minha-rota-de-documentacao/#/).
+</br>
+
+📄 Você pode visualizar meu [Heroku aqui](https://casa-preta-doulas.herokuapp.com/).
+
 
 </br>
 
