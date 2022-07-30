@@ -120,7 +120,9 @@ Lembre-se que a arquitetura final do projeto precisa ficar exatamente dessa mane
 </br>
 
 📄 Você pode visualizar meu [Heroku aqui](https://casa-preta-doulas.herokuapp.com/).
+</br>
 
+📄 Você pode visualizar minha [apresentação aqui](https://www.canva.com/design/DAFHPv495ZI/4x7_X-fROwt4IBUNEvCGIQ/edit?utm_content=DAFHPv495ZI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 </br>
 
