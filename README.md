@@ -221,7 +221,7 @@ Seguiremos a ordem de instalações no terminal:
 
 <p align="center">
 <a>
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQFUFLABHg5xfA/profile-displayphoto-shrink_800_800/0/1646500768370?e=1659571200&v=beta&t=ZeyR8RdmYcjcC_Mfr83iTLwkrQT3MR74QzceWIdbWfI" width="100px;" alt="Foto de Perfil de Andreza"/>
+ <img style="border-radius: 50%;" src="[https://media-exp1.licdn.com/dms/image/C4E03AQFUFLABHg5xfA/profile-displayphoto-shrink_800_800/0/1646500768370?e=1659571200&v=beta&t=ZeyR8RdmYcjcC_Mfr83iTLwkrQT3MR74QzceWIdbWfI](https://media.licdn.com/dms/image/D4D03AQEtDZmH55ex8w/profile-displayphoto-shrink_800_800/0/1680662514178?e=1690416000&v=beta&t=ox0U3bWm8PKCaZHua3TVRKPS2WChH9A-h8fOClo0aqM)" width="100px;" alt="Foto de Perfil de Andreza"/>
  <br/>
 </a>
 </p>
