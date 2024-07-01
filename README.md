@@ -221,7 +221,7 @@ Seguiremos a ordem de instalações no terminal:
 
 <p align="center">
 <a>
- <img style="border-radius: 50%;" src="[https://media-exp1.licdn.com/dms/image/C4E03AQFUFLABHg5xfA/profile-displayphoto-shrink_800_800/0/1646500768370?e=1659571200&v=beta&t=ZeyR8RdmYcjcC_Mfr83iTLwkrQT3MR74QzceWIdbWfI](https://media.licdn.com/dms/image/D4D03AQGFZxzcJK3aCg/profile-displayphoto-shrink_800_800/0/1698332511682?e=1725494400&v=beta&t=3rfJlCBnh5mCqjZ6z1xOQYn0P0eNWjaheP4XSEhqsuI)" width="100px;" alt="Foto de Perfil de Andreza"/>
+ <img style="border-radius: 50%;" src="[[https://media-exp1.licdn.com/dms/image/C4E03AQFUFLABHg5xfA/profile-displayphoto-shrink_800_800/0/1646500768370?e=1659571200&v=beta&t=ZeyR8RdmYcjcC_Mfr83iTLwkrQT3MR74QzceWIdbWfI](https://media.licdn.com/dms/image/D4D03AQGFZxzcJK3aCg/profile-displayphoto-shrink_800_800/0/1698332511682?e=1725494400&v=beta&t=3rfJlCBnh5mCqjZ6z1xOQYn0P0eNWjaheP4XSEhqsuI)](https://media.licdn.com/dms/image/D4D03AQGFZxzcJK3aCg/profile-displayphoto-shrink_800_800/0/1698332511682?e=1725494400&v=beta&t=3rfJlCBnh5mCqjZ6z1xOQYn0P0eNWjaheP4XSEhqsuI)" width="100px;" alt="Foto de Perfil de Andreza"/>
  <br/>
 </a>
 </p>
